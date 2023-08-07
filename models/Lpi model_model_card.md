@@ -1,8 +1,12 @@
 # Model Card for SPI model
+<div style="text-align: center;">
+<img src="https://landscapeprofile.ca/public/assets/models/SpiModel.jpg" width="100" height="100">
+</div>
 
 **Slug**: `LpiModel`
 **Description**: `Landscape pattern indices model`
 **Version**: `0.1`
+
 
 <!-- Provide a quick summary of what the model is/does. [Optional] -->
 This model computes the intersection of input polygon layers and summarizes intersection results across a variety of spatial scales. 
