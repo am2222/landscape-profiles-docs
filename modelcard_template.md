@@ -1,39 +1,37 @@
 ---
 # For reference on model card metadata, see the spec: https://github.com/huggingface/hub-docs/blob/main/modelcard.md?plain=1
 # Doc / guide: https://huggingface.co/docs/hub/model-cards
+{{ card_data }}
 ---
 
-# Model Card for Landscape Pattern Index Model
- ![]([https://myoctocat.com/assets/images/base-octocat.svg](https://landscapeprofile.ca/public/assets/models/LpiModel.png))
+# Model Card for {{ model_id | default("Model ID", true) }}
 
-**Slug**: `LpiModel`
-**description**: `Landscape Metrics Model`
-**version**: `0.1`
+<!-- Provide a quick summary of what the model is/does. -->
 
-The landscape pattern index model (LPI model)
-
-{{ model_summary | default("", true) }}-->
+{{ model_summary | default("", true) }}
 
 ## Model Details
 
 ### Model Description
 
-<!-- Provide a longer summary of what this model is. 
+<!-- Provide a longer summary of what this model is. -->
 
-{{ model_description | default("", true) }} -->
+{{ model_description | default("", true) }}
 
-- **Developed by:** C.Robertson and M. Hojati
-- **Model type:** Spatial intersection of input data layers
-- **Language(s):** Python implementation in `shapely` and `geopandas`
-- **License:**  Licenses used include: 
+- **Developed by:** {{ developers | default("[More Information Needed]", true)}}
+- **Shared by [optional]:** {{ shared_by | default("[More Information Needed]", true)}}
+- **Model type:** {{ model_type | default("[More Information Needed]", true)}}
+- **Language(s) (NLP):** {{ language | default("[More Information Needed]", true)}}
+- **License:** {{ license | default("[More Information Needed]", true)}}
+- **Finetuned from model [optional]:** {{ finetuned_from | default("[More Information Needed]", true)}}
 
 ### Model Sources [optional]
 
 <!-- Provide the basic links for the model. -->
 
-- **Repository:** [plink to source code](https://github.com/am2222/nai-aws-lambda-functions/blob/main/app/models/si_model.py)
-- **Paper [optional]:** N/A
-- **Demo [optional]:** TBD
+- **Repository:** {{ repo | default("[More Information Needed]", true)}}
+- **Paper [optional]:** {{ paper | default("[More Information Needed]", true)}}
+- **Demo [optional]:** {{ demo | default("[More Information Needed]", true)}}
 
 ## Uses
 
@@ -43,26 +41,64 @@ The landscape pattern index model (LPI model)
 
 <!-- This section is for the model use without fine-tuning or plugging into a larger ecosystem/app. -->
 
+{{ direct_use | default("[More Information Needed]", true)}}
+
+### Downstream Use [optional]
+
+<!-- This section is for the model use when fine-tuned for a task, or when plugged into a larger ecosystem/app -->
+
+{{ downstream_use | default("[More Information Needed]", true)}}
 
 ### Out-of-Scope Use
 
 <!-- This section addresses misuse, malicious use, and uses that the model will not work well for. -->
 
+{{ out_of_scope_use | default("[More Information Needed]", true)}}
 
 ## Bias, Risks, and Limitations
 
 <!-- This section is meant to convey both technical and sociotechnical limitations. -->
 
+{{ bias_risks_limitations | default("[More Information Needed]", true)}}
 
 ### Recommendations
 
 <!-- This section is meant to convey recommendations with respect to the bias, risk, and technical limitations. -->
 
+{{ bias_recommendations | default("Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model. More information needed for further recommendations.", true)}}
 
+## How to Get Started with the Model
+
+Use the code below to get started with the model.
+
+{{ get_started_code | default("[More Information Needed]", true)}}
+
+## Training Details
+
+### Training Data
+
+<!-- This should link to a Data Card, perhaps with a short stub of information on what the training data is all about as well as documentation related to data pre-processing or additional filtering. -->
+
+{{ training_data | default("[More Information Needed]", true)}}
+
+### Training Procedure 
+
+<!-- This relates heavily to the Technical Specifications. Content here should link to that section when it is relevant to the training procedure. -->
 
 #### Preprocessing [optional]
 
+{{ preprocessing | default("[More Information Needed]", true)}}
 
+
+#### Training Hyperparameters
+
+- **Training regime:** {{ training_regime | default("[More Information Needed]", true)}} <!--fp32, fp16 mixed precision, bf16 mixed precision, bf16 non-mixed precision, fp16 non-mixed precision, fp8 mixed precision -->
+
+#### Speeds, Sizes, Times [optional]
+
+<!-- This section provides information about throughput, start/end time, checkpoint size if relevant, etc. -->
+
+{{ speeds_sizes_times | default("[More Information Needed]", true)}}
 
 ## Evaluation
 
@@ -74,11 +110,13 @@ The landscape pattern index model (LPI model)
 
 <!-- This should link to a Data Card if possible. -->
 
+{{ testing_data | default("[More Information Needed]", true)}}
 
 #### Factors
 
 <!-- These are the things the evaluation is disaggregating by, e.g., subpopulations or domains. -->
 
+{{ testing_factors | default("[More Information Needed]", true)}}
 
 #### Metrics
 
