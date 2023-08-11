@@ -1,37 +1,33 @@
-# Model Card for SPI model
+# Model Card for LPI model
 <!--<div style="text-align: center;">
-<img src="https://landscapeprofile.ca/public/assets/models/SpiModel.jpg" width="100" height="100">
+<img src="https://landscapeprofile.ca/public/assets/models/LpiModel.jpg" width="100" height="100">
 </div>-->
 
-**Slug**: `SpiModel`
+**Slug**: `LpiModel`
 
-**Description**: `Spatial intersection model`
+**Description**: `Landscape pattern index model`
 
 **Version**: `0.1`
 
 
 <!-- Provide a quick summary of what the model is/does. [Optional] -->
-This model computes the intersection of input polygon layers and summarizes intersection results across a variety of spatial scales. 
+This model computes a variety of [landscape pattern indices](https://www.srs.fs.usda.gov/pubs/ja/ja_oneil003.pdf) on categorical landcover data. Outputs can be used to understand degree of landscape fragmentation and when computed at multiple time points - to quantify change in fragmentation over time. 
 
 # Model Details
 
 ## Model Description
 
 <!-- Provide a longer summary of what this model is/does. -->
-This model takes a development plan limit of disturbance polygon as input, and computes the spatial intersections with selected base layers. The sum and proportions of intersections of each base layer are reported in the output. Base layers may be vector or raster, and all computations are performed in projected coordinates [BC Albers projection](https://epsg.io/3005).
+This model requires a landcover raster as input. A variety of landscape pattern indices are computed. Currently, the model is 
 
-*Vector base layer*: an agreggation field can be specified if intersections based on a categorical field are required (e.g., SEI polygons using a column with SEI codes).
 
-*Raster base Layer - Discrete*: These are data where values in the raster are categories or codes, for example representing land cover class. Here summaries are reported for each class/unique value.
-
-*Raster base Layer - Continuous*: These are data where values in the raster are measured quantities, for example representing NDVI (normalized differenced vegetation index).
 
 - **Developed by:** Colin R., Majid H.
 - **Model type:** Geospatial model
 - **Language:** Python
 - **License:** 
 - **Parent Model:** N/A
-- **Resources for more information:** Spatial operations performed using [geopandas](https://geopandas.org/en/stable/) and [shapely](https://shapely.readthedocs.io/en/stable/) libraries
+- **Resources for more information:** Landscape pattern indices are performed using [pylandstats](https://pylandstats.readthedocs.io/en/latest/) library
 
 
 
@@ -53,7 +49,7 @@ This model takes a development plan limit of disturbance polygon as input, and c
 
 <!-- This section is meant to convey both technical and sociotechnical limitations. -->
 
-Model results are constrained by the accuracy of input data sources. Error may be introduced through plan polygons or base layers.
+Model results are constrained by the accuracy of input data sources. 
 
 
 ## Recommendations

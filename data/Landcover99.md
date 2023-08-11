@@ -4,7 +4,7 @@
 
 ---
 
-# Dataset Card for 
+# Dataset Card for Landcover 1999 dataset
 
 **Slug**: `Landcover99`
 
