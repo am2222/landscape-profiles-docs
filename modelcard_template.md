@@ -1,7 +1,4 @@
 # Model Card for SPI model
-<div style="text-align: center;">
-<img src="https://landscapeprofile.ca/public/assets/models/SpiModel.jpg" width="100" height="100">
-</div>
 
 **Slug**: `LpiModel`
 **Description**: `Landscape pattern indices model`
