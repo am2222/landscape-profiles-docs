@@ -88,5 +88,6 @@ AWS Cloud compute.
 
 ### Model Card Authors
 C. Robertson and M. Hojati
+
 [//]: # (This section provides another layer of transparency and accountability. Whose views is this model card representing? How many voices were included in its construction? Etc.) 
 
