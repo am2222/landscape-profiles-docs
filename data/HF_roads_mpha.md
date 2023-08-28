@@ -1,4 +1,4 @@
-# Dataset Card for Human Footrping - Trails 
+# Dataset Card for Human Footrpint - Trails 
 
 **Slug**: `HF_trails_len`
 
