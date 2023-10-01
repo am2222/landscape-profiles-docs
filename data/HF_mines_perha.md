@@ -1,4 +1,4 @@
-# Dataset Card for Human Footrpint - Trails 
+# Dataset Card for Human Footrpint - Mines 
 
 **Slug**: `HF_mines_perha`
 
@@ -24,7 +24,6 @@
   - South Okanagan Regional District
   - Central Okanagan Regional District
   - North Okanagan Regional District
-
 
 
 ### Data Currency 
