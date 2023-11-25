@@ -8,7 +8,6 @@
 
 
 [//]: # (Provide a quick summary of what the model is/does. [Optional])
-This model computes the the localized human footprint layers summary around a plan of interest. Human footrpint layers summarize human disturbance over 1 ha grid cells. 
 
 # Model Details
 
