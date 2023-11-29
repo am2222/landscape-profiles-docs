@@ -6,15 +6,21 @@
 
 ## Dataset Description
 
-- **Homepage:** https://a100.gov.bc.ca/pub/acat/public/viewReport.do?reportId=15347[https://a100.gov.bc.ca/pub/acat/public/viewReport.do?reportId=15347]
+- **Homepage:** BC Data Warehouse[https://catalogue.data.gov.bc.ca/dataset/sensitive-ecosystems-inventory-sei-detailed-polygons-with-short-attribute-table-spatial-view]
 - **Organization:** Ministry of Environment
 - **Paper:** 
-- **Point of Contact:**  Iverson, K. and P. Uunila
+- **Point of Contact:**  Terrestrial Ecosystem Information (TEI) Mailbox TEI_Mail@gov.bc.ca
 
 
 # Dataset Details
 ## Dataset Summary
-This project presents Terrestrial Ecosystem Mapping (TEM) for the City of Kelowna in south central British Columbia. A Sensitive Ecosystems Inventory theme was derived from the TEM mapcodes. The study area includes falls within two mapsheets, 082L003 and 082L004, and two biogeoclimatic units, the Interior Douglas-fir Okanagan Very Dry Hot variant (IDFxh1) and the Ponderosa Pine Okanagan Very Dry Hot variant (PPxh1). Mapping was completed at 1:20 000 scale, field inventory was completed in 2007 with a survey intensity 5 according to the Standard for Terrestrial Ecosystem Mapping in BC, 1998.
+This project presents Sensitive Ecosystem Inventory data for portions of the Regional Districts of South, Central, and North Okanagan. SEI_Polygons contains Sensitive Ecosystems Inventory polygons with key and amalgamated (concatenated) attributes derived from the RISC (Resource Inventory Standards Committee) standard attributes. SEI identifies and maps rare and fragile terrestrial ecosystems. Ecosystems mapped may include (but are not limited to) older forests, woodlands, coastal bluffs, herbaceous and sparsely vegetated ecosystems, grasslands, riparian ecosystems and wetlands. SEI methods include manual air photo interpretation or theming of other Ecosystem Mapping, each supported by selective field checking.
+
+[More details on South Okanagan](https://www2.gov.bc.ca/gov/content/environment/plants-animals-ecosystems/ecosystems/search-ecosystem-info/south-okanagan)
+
+[More details on Central Okanagan](https://www2.gov.bc.ca/gov/content/environment/plants-animals-ecosystems/ecosystems/search-ecosystem-info/central-okanagan)
+
+[More details on North Okanagan](#)
 
 ### Data quality
 
