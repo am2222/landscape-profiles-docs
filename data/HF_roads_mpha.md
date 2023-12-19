@@ -1,8 +1,8 @@
-# Dataset Card for Human Footrpint - Trails 
+# Dataset Card for Human Footrpint - Roads 
 
-**Slug**: `HF_trails_len`
+**Slug**: `HF_roads_len`
 
-**Description**: `Cumulative length(m) of trails per ha.`
+**Description**: `Cumulative length(m) of roads per ha.`
 
 ## Dataset Description
 

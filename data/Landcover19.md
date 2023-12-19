@@ -2,7 +2,7 @@
 
 **Slug**: `Landcover19`
 
-**Description**: `Landcover data derived from Landsat imagery over all of Canada for the year 1999. High-resolution annual forest land cover maps for Canada's forested ecosystems (1984-2019). `
+**Description**: `Landcover data derived from Landsat imagery over all of Canada for the year 2019. High-resolution annual forest land cover maps for Canada's forested ecosystems (1984-2019). `
 
 ## Dataset Description
 
