@@ -2,7 +2,7 @@
 
 **Slug**: `SEI`
 
-**Description**: `This project presents Terrestrial Ecosystem Mapping (TEM) for the City of Kelowna in south central British Columbia. A Sensitive Ecosystems Inventory theme was derived from the TEM mapcodes.`
+**Description**: `This project presents Sensitive Ecosystem Inventory data for the Okanagan Region.`
 
 ## Dataset Description
 
@@ -14,7 +14,7 @@
 
 # Dataset Details
 ## Dataset Summary
-This project presents Sensitive Ecosystem Inventory data for portions of the Regional Districts of South, Central, and North Okanagan. SEI_Polygons contains Sensitive Ecosystems Inventory polygons with key and amalgamated (concatenated) attributes derived from the RISC (Resource Inventory Standards Committee) standard attributes. SEI identifies and maps rare and fragile terrestrial ecosystems. Ecosystems mapped may include (but are not limited to) older forests, woodlands, coastal bluffs, herbaceous and sparsely vegetated ecosystems, grasslands, riparian ecosystems and wetlands. SEI methods include manual air photo interpretation or theming of other Ecosystem Mapping, each supported by selective field checking.
+This project presents Sensitive Ecosystem Inventory data for portions of the Regional Districts of South, Central, and North Okanagan. SEI_Polygons contain Sensitive Ecosystems Inventory polygons with key and amalgamated (concatenated) attributes derived from the RISC (Resource Inventory Standards Committee) standard attributes. SEI identifies and maps rare and fragile terrestrial ecosystems. Ecosystems mapped may include (but are not limited to) older forests, woodlands, coastal bluffs, herbaceous and sparsely vegetated ecosystems, grasslands, riparian ecosystems and wetlands. SEI methods include manual air photo interpretation or theming of other Ecosystem Mapping, each supported by selective field checking.
 
 [More details on South Okanagan](https://www2.gov.bc.ca/gov/content/environment/plants-animals-ecosystems/ecosystems/search-ecosystem-info/south-okanagan)
 
