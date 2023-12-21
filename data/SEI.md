@@ -1,4 +1,4 @@
-# Sensitive Ecosystems Inventory - City of Kelowna
+# Sensitive Ecosystems Inventory
 
 **Slug**: `SEI`
 
@@ -9,7 +9,7 @@
 - **Homepage:** BC Data Warehouse[https://catalogue.data.gov.bc.ca/dataset/sensitive-ecosystems-inventory-sei-detailed-polygons-with-short-attribute-table-spatial-view]
 - **Organization:** Ministry of Environment
 - **Paper:** 
-- **Point of Contact:**  Terrestrial Ecosystem Information (TEI) Mailbox TEI_Mail@gov.bc.ca
+- **Point of Contact:** 
 
 
 # Dataset Details
