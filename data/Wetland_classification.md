@@ -1,4 +1,4 @@
-# Dataset Card for Human Footprint - Agricultural Land Reserve (ALR)
+# Dataset Card for Wetland Classification
 
 **Slug**: `Wetland_class`
 
@@ -7,7 +7,7 @@
 ## Dataset Description
 Building on existing wetland inventories that have limited coverage, a random forest probabilistic model was developed to predict, classify and map wetlands in the Okanagan at a 10 m spatial scale. In total, 22 covariates representing multispectral and synthetic aperture radar metrics derived from Sentinel-2 and Sentinel-1; topography and vegetation derived from LiDAR; and ancillary geospatial data were used to classify wetlands. The model was trained using an existing wetland database and provincial datasets to predict the probability of each pixel belonging to the following six-classes: fen, marsh, shallow-water, swamp, upland, and open-water. Model performance was evaluated using a confusion matrix and had an overall accuracy of 84.8%. 
 
-- **Homepage:** 
+- **Homepage:**  [Earth Observation and Spatial Ecology Lab](https://www.eosel.org/)
 - **Organization:** UBC-lab 
 - **Paper:** [Associated Thesis Describing Methodology, Deenik 2022](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0413780)
 - **Point of Contact:** Dr. Mathieu Bourbonnais

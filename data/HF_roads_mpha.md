@@ -6,8 +6,8 @@
 
 ## Dataset Description
 
-- **Homepage:** 
-- **Organization:** UBC-lab 
+- **Homepage:** [Earth Observation and Spatial Ecology Lab](https://www.eosel.org/)
+- **Organization:** UBC Okanagan 
 - **Paper:** 
 - **Point of Contact:** Dr. Mathieu Bourbonnais
 

@@ -6,8 +6,8 @@
 
 ## Dataset Description
 
-- **Homepage:** BC Data Warehouse[https://catalogue.data.gov.bc.ca/dataset/sensitive-ecosystems-inventory-sei-detailed-polygons-with-short-attribute-table-spatial-view]
-- **Organization:** Ministry of Environment
+- **Homepage:** [BC Data Warehouse](https://catalogue.data.gov.bc.ca/dataset/sensitive-ecosystems-inventory-sei-detailed-polygons-with-short-attribute-table-spatial-view)
+- **Organization:** Government of British Columbia
 - **Paper:** 
 - **Point of Contact:** 
 
