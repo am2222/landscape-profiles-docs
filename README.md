@@ -1,6 +1,6 @@
 # landscape-profiles-docs
 
-Landscape Profile is a conservation planning tool for helping planners analyze prospective developments from the perspective of cumulative impacts on the landscape and landscape connectivity. The tool has been developed in collaboration with planners in British Columbia, and is currently in the beta testing phase of development. The Conservation Planning Tool (LPT) is an initiative led by the [Okanagan Collaborative Conservation Program (OCCP)](https://okcp.ca/).
+Landscape Profile is a conservation planning tool for helping planners analyze prospective developments from the perspective of cumulative impacts on the landscape and landscape connectivity. The tool has been developed in collaboration with planners in British Columbia, and is currently in the beta testing phase of development. The Conservation Planning Tool (CPT) is an initiative led by the [Okanagan Collaborative Conservation Program (OCCP)](https://okcp.ca/).
 
 ## Design Goals
 
