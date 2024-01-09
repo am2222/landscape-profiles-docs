@@ -15,7 +15,7 @@ The CPT has been developed with the following Design Goals in mind:
 
 ## Core Concepts
 
-![Core Concept Overview](/img/concepts.png "Overview of core concepts")
+![Core Concept Overview](https://github.com/am2222/landscape-profiles-docs/blob/main/img/concepts.png?raw=true"Overview of core concepts")
 
 There are a few core concepts modelled in the project. 
 
