@@ -57,8 +57,11 @@ Details of what each model does can be examined in the documentation for each mo
 
 ![Running the SPI model](https://github.com/am2222/landscape-profiles-docs/blob/main/img/model_run.png?raw=true)
 
+When you `click  Run Model` you will be brought back to `Model History` and see that the model run is currently in progress. After a few seconds that `Status` should change to `Success`.
 
+![Seeing Model Status](https://github.com/am2222/landscape-profiles-docs/blob/main/img/model_result.png?raw=true)
 
+`Clicking on the last button` in the row will launch the report to view the results of the SPI model analysis.
 
 ### Viewing the Report
 
