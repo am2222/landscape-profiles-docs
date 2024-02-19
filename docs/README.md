@@ -32,7 +32,7 @@ There are a few core concepts modelled in the project.
 
 ## Tutorials
 
-A [tutorial is available here](intro.md) demonstrating key functionality of the CPT.
+A [tutorial is available here](docs:intro.md) demonstrating key functionality of the CPT.
 
 ## More information
 
