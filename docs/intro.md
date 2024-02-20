@@ -29,7 +29,7 @@ Detailed data and model documentation is available on the left panel of the CPT.
 ## A Sample Workflow
 Assuming you have familiarized yourself with the basic interface and have a logged in registered user with the CPT, we can walk through a simple analysis to demonstrate the workflow. Here we will use some sample data from the City of Kelowna for demonstration purposes.
 
-To complete the workflow below, first [download the sample data][https://github.com/am2222/landscape-profiles-docs/blob/main/files/limit_of_disturbance.zip?raw=true]
+To complete the workflow below, first [download the sample data](https://github.com/am2222/landscape-profiles-docs/blob/main/files/limit_of_disturbance.zip?raw=true)
 
 ### Plan Upload
 `Click` on the `Plan Upload` link on the left panel. Enter in details associated with this plan (which is development proposal in the City of Kelowna, B.C.). `Click` on the `Drag file here to upload` button and navigate to the sample dataset downloaded above. `Click submit` to upload the plan polygon zip file to the system. You should get a notification that a process has started.
