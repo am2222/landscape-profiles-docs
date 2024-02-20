@@ -34,19 +34,29 @@ To complete the workflow below, first [download the sample data][https://github.
 ### Plan Upload
 `Click` on the `Plan Upload` link on the left panel. Enter in details associated with this plan (which is development proposal in the City of Kelowna, B.C.). `Click` on the `Drag file here to upload` button and navigate to the sample dataset downloaded above. `Click submit` to upload the plan polygon zip file to the system. You should get a notification that a process has started.
 
+<hr>
+
 ![Upload Plan](https://github.com/am2222/landscape-profiles-docs/blob/main/img/submit_plan.png?raw=true)
+
+<hr>
 
 After a successful upload has run, you can view the uploaded plan in the `Plan List` section. Here you can inspect the geometry of the plan by clicking on the row, which will update the map view to visualize the plan in relation to the local area. As well, details of the plan - description, workspace, file name, upload time, etc. are available in the table. 
 
+<hr>
+
 ![Plan List](https://github.com/am2222/landscape-profiles-docs/blob/main/img/plan_list.png?raw=true)
+
+<hr>
 
 The Map View in the Plan List interface can be expanded to full screen. As well, base layers can be turned on to examine their relation to the plan polygon. This may inform what layers to use in a subsequent model analysis. Note also that by right clicking on the map and panning, the perspective of the map view can be rotated to reveal topographyof the area. For example here is the view of the plan with SEI layer turned on and rortated to look westward across Okanagan Lake.
 
+<hr>
+
 ![Plan List Map View](https://github.com/am2222/landscape-profiles-docs/blob/main/img/view_west.png?raw=true)
 
-The next step is to run a landscape model on the data.
+<hr>
 
-<!--<img src="../img/view_west.png" alt="Rotated View" title="Rotated View" width="600" height="400">-->
+The next step is to run a landscape model on the data.
 
 ### Running a Landscape Model
 `Click` on `Landscape Models` on the left panel. Here you can access tools to run a lanscape model with the uploaded data and available base layers. Also, there is a model history, showing previous records of model runs. You will likely see a single entry for your upload plan, which triggers a background model for uploading and storing data and associating it with your user account. 
@@ -64,6 +74,10 @@ When you `click  Run Model` you will be brought back to `Model History` and see 
 `Clicking on the last button` in the row will launch the report to view the results of the SPI model analysis.
 
 ### Viewing the Report
+The report launches a summary of the intersection analyses. The top part of the report provides a tabular summary of model. Results are grouped by `Base Layer` which in this analysis is just one layer. Within that one layer we get values for distinct values of the variable selected when we ran the model (i.e., `SNSTVCSST3`), we have values of `NA` which means not sensitive, and `WD:co` which is a code for Woodland Coniferous in the SEI classification system. For each row we can see the total area and the proportion of area that intersects the `plan` polygon we uploaded, the `parcel` that the plan is associated with, and the regional district polygon that the plan is in. 
+
+![SPI Result](https://github.com/am2222/landscape-profiles-docs/blob/main/img/spi_result.png?raw=true)
+
 
 ## Advanced Topics
 
