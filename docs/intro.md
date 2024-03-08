@@ -33,10 +33,6 @@ For plan polygons, each polygon should ideally be the disturbance footprint of t
 
 ***
 
-***
-
-***
-
 
 ## A Sample Workflow
 Assuming you have familiarized yourself with the basic interface and have a logged in registered user with the CPT, we can walk through a simple analysis to demonstrate the workflow. Here we will use some sample data from the City of Kelowna for demonstration purposes.
