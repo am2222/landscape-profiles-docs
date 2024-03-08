@@ -26,6 +26,12 @@ Creating a new workspace is straightforward - just provide a name and descriptio
 ### Data and Models Documentation
 Detailed data and model documentation is available on the left panel of the CPT.
 
+### Data Upload to the CPT
+Currently the tools supports upload of geospatial data as shapefile format, zipped up as a single zip file. The data should have a coordinate reference system defined in the `prj` file associated with the shapefile. The operational coordinate reference system for the CPT is the [BC Albers Projection](https://epsg.io/3005) - data that are represented in other projections will be reprojected to BC Albers. 
+
+For plan polygons, each polygon should ideally be the disturbance footprint of the development, with internal divisions merged into a single polygon. For base layer polygons, ensure that the baselayers overlap the plan polygon you are working with. In general, uncompressed shapefiles should not exceed 10 mb.
+
+
 ## A Sample Workflow
 Assuming you have familiarized yourself with the basic interface and have a logged in registered user with the CPT, we can walk through a simple analysis to demonstrate the workflow. Here we will use some sample data from the City of Kelowna for demonstration purposes.
 
